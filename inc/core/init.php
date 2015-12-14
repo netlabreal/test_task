@@ -1,10 +1,10 @@
 <?php
-// Начало сессии
+// РќР°С‡Р°Р»Рѕ СЃРµСЃСЃРёРё
 session_start();
-// Инициализация глобальных переменных
+// РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РіР»РѕР±Р°Р»СЊРЅС‹С… РїРµСЂРµРјРµРЅРЅС‹С…
 $GLOBALS['config'] = array('host' => 'localhost', 'user'=>'045623242_alex','pass'=>'1234','dbname'=>'litab_test','path'=>'../img/data/');
 //$GLOBALS['config'] = array('host' => '192.168.1.100', 'user'=>'alexandr','pass'=>'rfqkfc','dbname'=>'test','path'=>'../img/data/');
-//автозагрузка классов
+//Р°РІС‚РѕР·Р°РіСЂСѓР·РєР° РєР»Р°СЃСЃРѕРІ
 spl_autoload_register(function($class){
     require_once $_SERVER['DOCUMENT_ROOT'].'/inc/classes/'.$class.'.php';
 });
