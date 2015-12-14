@@ -1,0 +1,86 @@
+#login, #pass, #loginreg, #passreg{
+    margin-bottom: 10px;
+}
+#vxod{
+    float: left;
+}
+#reg, #zareg{
+    float: right;
+    padding-top: 0px;
+}
+#err{
+    color: red;
+}
+#statusreg{
+    color: red;
+    float: left;
+}
+#user{
+    float: right;
+    margin-right: 15px;
+    cursor:pointer;
+}
+#yourb{
+width:180px;
+}
+
+
+
+#m_content{
+    margin-top: 20px;
+}
+#ic_m{
+    float: left;
+    margin-right: 10px;
+}
+#ic_d{
+    float: left;
+    margin-right: 10px;
+    color: grey;
+}
+#exit{
+    font-weight: bold;
+    color: Blue;
+    float: right;
+}
+#uid{
+    font-weight: bold;
+    color: Blue;
+    float: right;
+    font-size: medium;
+    margin-right: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+#mypb{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#login_panel{
+    margin-top: 40px;
+}
+#menuToggle{
+    float: left;
+}
+#pre_foto{
+    width: 200px;
+    height: 240px;
+    margin-right: 10px;
+    float: left;
+}
+#del{
+    float: left;
+    color: blue;
+    cursor: pointer;
+}
+#dd_foto{
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}
+#main_content{
+    margin-bottom: 30px;
+}
+#auto{
+float: left;
+}
